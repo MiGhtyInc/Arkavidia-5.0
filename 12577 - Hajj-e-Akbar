@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main () {
+	string s;
+	int p=0;
+	for(int i=0;s!="*";i++) {
+		cin>>s;
+		if (s== "*") {
+			break;
+		}
+		if (s == "Hajj") {
+			cout <<"Case "<<i+1<<": "<<"Hajj-e-Akbar"<<endl;
+		} else {
+			cout<<"Case "<<i+1<<": "<<"Hajj-e-Asghar"<<endl;
+		}
+	}
+	return 0;
+}
